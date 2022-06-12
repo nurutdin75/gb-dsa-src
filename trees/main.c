@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
-#include <time.h>
-#include <stdarg.h>
 
 #define true 1 == 1
 #define false 1 != 1
@@ -141,7 +139,7 @@ int main()
     //TASK 1
     trees();
 
-    //TASK 2 , будем искать в дереве tree[49] элемент, который вы введёте
+    //TASK 2  We are looking element in tree[49]
     int element;
     printf("Input integer number 0 - 999 for search: ");
     scanf("%d", &element);
