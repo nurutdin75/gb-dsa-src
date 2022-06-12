@@ -139,7 +139,7 @@ int main()
     //TASK 1
     trees();
 
-    //TASK 2  We are looking element in tree[49]
+    //TASK 2  We are looking for element in tree[49]
     int element;
     printf("Input integer number 0 - 999 for search: ");
     scanf("%d", &element);
